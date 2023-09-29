@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #151515;
+    background-image: url(image/Background.png);
+    background-repeat: no-repeat;
+    background-size: 1920px 4000px;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'Poppins';
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+body::-webkit-scrollbar{
+    width: 12px;
+}
+body::-webkit-scrollbar-track{
+    background-color: #151515;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #1740B0;
+    border-radius: 25px;
+}
+
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+}
+nav ul{
+    display: flex;
+    margin-right: 75px;
+}
+li{
+    font-size: 15pt;
+    margin-left: 25px;
+}
+li:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #1740B0;
+    text-underline-offset: 5px;
+}
+
+
+header{
+    display: block;
+    height: 750px;
+}
+header h1{
+    top: 120px;
+    left: 50px;
+}
+header h2{
+    left: 100px;
+    top: 180px;
+}
+header h1,header h2{
+    font-size: 45.5pt;
+    position: absolute
+}
+header h4{
+    position: absolute;
+    font-size: 15pt;
+    color: #999999;
+    left: 150px;
+    top: 295px;
+}
+header button a{
+    line-height: 1em;
+}
+header button{
+    position: absolute;
+    padding: 1em 3em;
+    background-color: transparent;
+    border: 3px #1740B0  solid;
+    color: #fff;
+    font-size: 15.8pt;
+    border-radius: 20px;
+    left: 41%;
+    top: 600px;
+}
+header button:hover{
+    background-color: #1740B0;
+    transition: 0.4s ease-in-out;
+}
+
+
+#about{
+    display: block;
+    margin-top: 400px;
+}
+.title{
+    margin-top:190px;
+    font-size: 30pt;
+    text-align: center;
+}
+#about p{
+    font-size: 17pt;
+    margin: 90px 50px;
+    color: #999999;
+    font-weight: 400;
+}
+
+
+#projects{
+    margin-top: 300px;
+}
+.projects-table{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    justify-items: center;
+}
+.projects-card{
+    background-color: #99999975;
+    width: 600px;
+    height: 350px;
+    border-radius: 25px;
+}
+.projects-card:hover {
+    background-color: #999999;
+    transition: 0.2s ease-in;
+}
+.projects-table h4{
+    font-size: 27.5pt;
+    font-weight: 400;
+}
+
+
+.choice-table{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.container{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+.container button{
+    border: #1740B0 3px solid;
+    background-color: transparent;
+    width: 700px;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 15pt;
+}
+.container button:hover{
+    background-color: #1740B0;
+    transition: 0.3s;
+}
+#content1, #content2{
+    color: #999999;
+    width: 700px;
+}
+#content1, #content2 p{
+    margin-left: 150px;
+}
+.hidden{
+    display: none;
+}
+
+
+footer{
+    background-color: #1740B0;
+    height: 500px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#title {
+    padding-top: 100px;
+}
+.contact-table{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 150px;
+}
+.contact-link{
+    margin-top: 10px;
+}
+.contact-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.contact-link i, .contact-link a{
+    color: #999999;
+}
+.thanks h4, .thanks p{
+    color: #999999;
+}
+.thanks h4{
+    margin-top: 0;
+    font-size: 2em;
+}
+.thanks p {
+    font-size: 1em;
+}
